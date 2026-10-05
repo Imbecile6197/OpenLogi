@@ -345,6 +345,7 @@ workflow_step_count_plural = "工作流（%{count} 步）"
 open_named_target = "打开 %{name}"
 
 [pairing]
+pair_receiver = "配对 Bolt / Unifying…"
 add_device = "添加设备"
 add_device_dialog = "添加设备…"
 pairing_mode_description = "先让设备进入配对模式，然后开始搜索。"

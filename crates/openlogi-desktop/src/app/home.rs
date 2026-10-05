@@ -689,7 +689,7 @@ pub(super) fn device_empty_state(cx: &App) -> Div {
             Button::new("empty-add-device")
                 .primary()
                 .icon(IconName::Plus)
-                .label(tr!("pairing.add_device"))
+                .label(tr!("pairing.pair_receiver"))
                 .on_click(|_, _, cx| crate::windows::add_device::open(cx)),
         )
         .child(

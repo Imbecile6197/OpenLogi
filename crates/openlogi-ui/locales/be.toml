@@ -345,6 +345,7 @@ workflow_step_count_plural = "Сцэнар (колькасць крокаў: %{c
 open_named_target = "Адкрыць %{name}"
 
 [pairing]
+pair_receiver = "Спалучыць Bolt / Unifying…"
 add_device = "Дадаць прыладу"
 add_device_dialog = "Дадаць прыладу…"
 pairing_mode_description = "Перавядзіце прыладу ў рэжым спалучэння, пасля чаго пачніце пошук."

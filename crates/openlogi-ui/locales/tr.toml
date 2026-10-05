@@ -345,6 +345,7 @@ workflow_step_count_plural = "İş akışı (%{count} adım)"
 open_named_target = "%{name} öğesini aç"
 
 [pairing]
+pair_receiver = "Bolt / Unifying eşleştir…"
 add_device = "Cihaz Ekle"
 add_device_dialog = "Cihaz Ekle…"
 pairing_mode_description = "Cihazı eşleştirme moduna alın, sonra aramayı başlatın."
