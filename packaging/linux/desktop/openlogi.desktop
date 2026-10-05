@@ -2,6 +2,7 @@
 Type=Application
 Name=OpenLogi
 Comment=Logitech HID++ device control — remap buttons, DPI, SmartShift
+Comment[cs]=Nastavení zařízení Logitech — tlačítka, DPI, SmartShift a párování Bolt
 Exec=openlogi-desktop
 Icon=openlogi
 Terminal=false
@@ -11,4 +12,5 @@ Terminal=false
 StartupWMClass=org.openlogi.openlogi
 Categories=Settings;HardwareSettings;
 Keywords=logitech;mouse;hid;remap;dpi;
+Keywords[cs]=logitech;myš;klávesnice;bolt;unifying;párování;dpi;
 StartupNotify=true
