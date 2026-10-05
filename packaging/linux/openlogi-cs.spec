@@ -7,7 +7,7 @@
 
 Name:           openlogi
 Version:        0.8.11
-Release:        1.cs2%{?dist}
+Release:        1.cs3%{?dist}
 Summary:        Logitech HID++ device control (Czech build with visible Bolt pairing)
 License:        Apache-2.0 OR MIT
 URL:            https://github.com/AprilNEA/OpenLogi
@@ -68,6 +68,8 @@ fi
 %license %{_datadir}/licenses/openlogi/LICENSE-MIT
 
 %changelog
+* Mon Oct 05 2026 Local Czech build - 0.8.11-1.cs3
+- Let the device-enabled caption wrap so the switch stays inside the card
 * Mon Oct 05 2026 Local Czech build - 0.8.11-1.cs2
 - Shorten Czech "Actions Ring" label to "Kruh akcí" so it fits the sidebar
 * Sat Oct 03 2026 Local Czech build - 0.8.11-1.cs1
