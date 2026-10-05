@@ -345,6 +345,7 @@ workflow_step_count_plural = "워크플로(%{count}단계)"
 open_named_target = "%{name} 열기"
 
 [pairing]
+pair_receiver = "Bolt / Unifying 페어링…"
 add_device = "기기 추가"
 add_device_dialog = "기기 추가…"
 pairing_mode_description = "기기를 페어링 모드로 설정한 다음 검색을 시작하세요."

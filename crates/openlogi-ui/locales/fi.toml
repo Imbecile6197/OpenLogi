@@ -345,6 +345,7 @@ workflow_step_count_plural = "Työnkulku (%{count} vaihetta)"
 open_named_target = "Avaa %{name}"
 
 [pairing]
+pair_receiver = "Parita Bolt / Unifying…"
 add_device = "Lisää laite"
 add_device_dialog = "Lisää laite…"
 pairing_mode_description = "Aseta laite paritustilaan ja aloita sitten haku."

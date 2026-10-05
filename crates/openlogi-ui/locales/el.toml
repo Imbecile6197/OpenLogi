@@ -345,6 +345,7 @@ workflow_step_count_plural = "Ροή εργασίας (%{count} βήματα)"
 open_named_target = "Άνοιγμα %{name}"
 
 [pairing]
+pair_receiver = "Σύζευξη Bolt / Unifying…"
 add_device = "Προσθήκη συσκευής"
 add_device_dialog = "Προσθήκη συσκευής…"
 pairing_mode_description = "Θέστε τη συσκευή σε λειτουργία αντιστοίχισης και μετά ξεκινήστε την αναζήτηση."

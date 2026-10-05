@@ -345,6 +345,7 @@ workflow_step_count_plural = "Posloupnost akcí (počet kroků: %{count})"
 open_named_target = "Otevřít %{name}"
 
 [pairing]
+pair_receiver = "Spárovat Bolt / Unifying…"
 add_device = "Přidat zařízení"
 add_device_dialog = "Přidat zařízení…"
 pairing_mode_description = "Přepněte zařízení do režimu párování a spusťte hledání."

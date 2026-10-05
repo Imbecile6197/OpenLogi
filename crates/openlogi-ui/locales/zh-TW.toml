@@ -345,6 +345,7 @@ workflow_step_count_plural = "工作流程（%{count} 個步驟）"
 open_named_target = "開啟 %{name}"
 
 [pairing]
+pair_receiver = "配對 Bolt / Unifying…"
 add_device = "新增裝置"
 add_device_dialog = "新增裝置…"
 pairing_mode_description = "先讓裝置進入配對模式，然後開始搜尋。"

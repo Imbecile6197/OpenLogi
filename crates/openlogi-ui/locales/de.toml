@@ -345,6 +345,7 @@ workflow_step_count_plural = "Workflow (%{count} Schritte)"
 open_named_target = "%{name} öffnen"
 
 [pairing]
+pair_receiver = "Bolt / Unifying koppeln…"
 add_device = "Gerät hinzufügen"
 add_device_dialog = "Gerät hinzufügen…"
 pairing_mode_description = "Versetze das Gerät in den Kopplungsmodus und starte dann die Suche."

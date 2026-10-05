@@ -345,6 +345,7 @@ workflow_step_count_plural = "Arbeidsflyt (%{count} trinn)"
 open_named_target = "Åpne %{name}"
 
 [pairing]
+pair_receiver = "Koble til Bolt / Unifying…"
 add_device = "Legg til enhet"
 add_device_dialog = "Legg til enhet …"
 pairing_mode_description = "Sett enheten i paringsmodus, og start deretter søket."
