@@ -4,12 +4,11 @@ Fork projektu [AprilNEA/OpenLogi](https://github.com/AprilNEA/OpenLogi) – otev
 
 Tento fork přidává:
 
-- **českou lokalizaci** celého rozhraní (všech 580 textů),
 - **viditelné tlačítko „Spárovat Bolt / Unifying…“** v přehledu zařízení i v detailu zařízení, takže párování přes přijímač Logi Bolt nebo Unifying je vždy po ruce,
 - český popis a klíčová slova spouštěče v nabídce aplikací,
 - balíček RPM pro Fedoru.
 
-Čeština je navržená i do původního projektu v [AprilNEA/OpenLogi#1669](https://github.com/AprilNEA/OpenLogi/pull/1669). Tlačítko párování zůstává jen v tomto forku.
+Čeština je od verze 0.8.13 přímo součástí původního OpenLogi ([AprilNEA/OpenLogi#1669](https://github.com/AprilNEA/OpenLogi/pull/1669)). Tlačítko párování zůstává jen v tomto forku.
 
 ![České rozhraní](https://raw.githubusercontent.com/Imbecile6197/OpenLogi/pr-assets/czech-ui.png)
 
@@ -18,7 +17,7 @@ Tento fork přidává:
 Stáhněte balíček `.rpm` z [Releases](https://github.com/Imbecile6197/OpenLogi/releases), zavřete OpenLogi a v terminálu ve složce se staženým souborem spusťte:
 
 ```sh
-sudo dnf install ./openlogi-0.8.11-1.cs3.fc44.x86_64.rpm
+sudo dnf install ./openlogi-0.8.13-1.cs1.fc44.x86_64.rpm
 systemctl --user daemon-reload
 systemctl --user enable --now openlogi-agent.service
 openlogi-desktop
