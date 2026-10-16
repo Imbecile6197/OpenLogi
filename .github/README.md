@@ -17,7 +17,7 @@ Tento fork přidává:
 Stáhněte balíček `.rpm` z [Releases](https://github.com/Imbecile6197/OpenLogi/releases), zavřete OpenLogi a v terminálu ve složce se staženým souborem spusťte:
 
 ```sh
-sudo dnf install ./openlogi-0.8.13-1.cs1.fc44.x86_64.rpm
+sudo dnf install ./openlogi-0.8.14-1.cs1.fc44.x86_64.rpm
 systemctl --user daemon-reload
 systemctl --user enable --now openlogi-agent.service
 openlogi-desktop
