@@ -18,7 +18,9 @@ use gpui_component::{
 use openlogi_core::config::ScrollResolution;
 use openlogi_core::device::DeviceKind;
 
-use super::widgets::{back_button, connection_summary, kind_label, sidebar_action, status_badge};
+use super::widgets::{
+    add_device_button, back_button, connection_summary, kind_label, sidebar_action, status_badge,
+};
 use super::{AppView, DetailTab};
 use crate::app::menu::open_config_folder;
 use crate::features::action_ring::ActionRingPanel;
@@ -50,9 +52,8 @@ const LIGHT_CONTROLS_W: Rems = rems(25.);
 const LIGHT_CONTROLS_MIN_W: Rems = rems(22.5);
 const POINTER_CARD_MIN_W: Rems = rems(20.75);
 
-/// Compact device identity bar. Section navigation belongs to the workspace
-/// rail below; pairing belongs to the Devices screen, so neither competes with
-/// the device name and status here.
+/// Device identity bar with a visible receiver-pairing action, so adding a
+/// device does not require navigating back to the gallery.
 pub(super) fn detail_header(
     record: Option<&DeviceRecord>,
     cx: &mut Context<AppView>,
@@ -87,6 +88,7 @@ pub(super) fn detail_header(
         .child(div().flex_1())
         .children(battery)
         .when_some(online, |this, online| this.child(status_badge(online, pal)))
+        .child(add_device_button())
 }
 
 /// Long-lived child panels rendered by the device workspace.

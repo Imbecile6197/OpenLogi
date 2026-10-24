@@ -78,13 +78,13 @@ fn chord_action_labels_resolve() {
     assert_eq!(bare_key, "点按 F5");
 }
 
-/// Czech must resolve in the actual desktop backend, including the pairing
-/// entry point and the authentication instructions.
+/// Czech must resolve in the actual desktop backend, including the visible
+/// pairing entry point and the authentication instructions.
 #[test]
 fn czech_pairing_translations_resolve() {
     assert_eq!(
-        rust_i18n::t!("pairing.add_device", locale = "cs"),
-        "Přidat zařízení"
+        rust_i18n::t!("pairing.pair_receiver", locale = "cs"),
+        "Spárovat Bolt / Unifying…"
     );
     assert_eq!(
         rust_i18n::t!(
