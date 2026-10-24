@@ -6,7 +6,7 @@
 %global __strip /bin/true
 
 Name:           openlogi
-Version:        0.8.14
+Version:        0.8.17
 Release:        1.cs1%{?dist}
 Summary:        Logitech HID++ device control (Czech build with visible Bolt pairing)
 License:        Apache-2.0 OR MIT
@@ -68,6 +68,8 @@ fi
 %license %{_datadir}/licenses/openlogi/LICENSE-MIT
 
 %changelog
+* Sat Oct 24 2026 Local Czech build - 0.8.17-1.cs1
+- Rebase on OpenLogi 0.8.17; the pairing button now opens its receiver chooser
 * Fri Oct 16 2026 Local Czech build - 0.8.14-1.cs1
 - Rebase on OpenLogi 0.8.14
 - Translate the hold-modifiers and tap-key actions in Czech
